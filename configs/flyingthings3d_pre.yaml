@@ -1,0 +1,3 @@
+data_dir: '/root/data/lyj/SceneFlow/Flyingthins3d'
+save_dir: '/root/data/lyj/SceneFlow/HPLFlyingthins3d'
+save_near: true
