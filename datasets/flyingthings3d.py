@@ -14,7 +14,7 @@ class FlyingThings3DSubset(data.Dataset):
             train (bool): true--> train dataset, false--> test dataset
             transform (callable)
         """
-        super(FlyingThings3DSubset).__init__()
+        super(FlyingThings3DSubset, self).__init__()
         self.data_dir = os.path.join(data_dir, 'FlyingThings3D_subset_processed_35m')
         self.train = train
         self.transform = transform

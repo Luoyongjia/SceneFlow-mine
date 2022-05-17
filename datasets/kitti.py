@@ -13,7 +13,7 @@ class KITTI(data.Dataset):
             train (bool): true--> train dataset, false--> test dataset
             transform (callable)
         """
-        super(KITTI).__init__()
+        super(KITTI, self).__init__()
         self.data_dir = os.path.join(data_dir, 'KITTI_processed_occ_final')
         self.train = train
         self.transform = transform
