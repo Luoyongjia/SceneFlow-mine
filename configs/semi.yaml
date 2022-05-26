@@ -1,0 +1,11 @@
+gpu: '0'
+multi_gpu: null   # null/'0, 1'
+
+name: KITTI8192_dual_8+2_800
+
+model:
+  name: pointPWC
+
+log_dir: ./res/
+eval:
+  epoch: 3
