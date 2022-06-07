@@ -18,7 +18,7 @@ from models import get_model
 from indicator import *
 
 
-def eval(val_loader, args, checkpoint_dir):
+def evaluate_func(val_loader, args, checkpoint_dir):
     # log init
     logger = logging.getLogger(args.exp_name)
     logger.setLevel(logging.INFO)

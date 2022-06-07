@@ -1,0 +1,18 @@
+gpu: '0'
+multi_gpu: null   # null/'0, 1'
+
+name: KITTI8192_dual_8+2_800
+
+model:
+  name: dual
+
+log_dir: ./res/
+train:
+  labeled_batch_size: 8
+  unlabeled_batch_size: 2
+  optimizer: SGD
+  epoch: 800
+
+
+eval:
+  epoch: 3
